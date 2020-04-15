@@ -378,11 +378,26 @@ summary {
 <p>Análisis de las provincias con más fallecidos(confirmados y probables de covid19) que se ha reportado en la página del MSP hasta el día 2020-04-15.</p>
 <div id="fallecidos" class="section level5">
 <h5>Fallecidos</h5>
-<table class="table table-striped" style="width: auto !important; margin-left: auto; margin-right: auto;">
-<caption>
-mc = muerte confirmada, mp = muerte probable de covid19, pmc= porcentaje de muertes confirmadas, pmp= porcentaje de muertes probables
+<table class="table table-striped" style="font-size: 12px; width: auto !important; margin-left: auto; margin-right: auto;">
+<caption style="font-size: initial !important;">
+mc = muerte confirmada, mp = muerte probable de covid19, pmc= porcentaje de muertes confirmadas, pmp= porcentaje de muertes probables, pmt= porcentaje de muertes totales
 </caption>
 <thead>
+<tr>
+<th style="border-bottom:hidden" colspan="1">
+</th>
+<th style="border-bottom:hidden" colspan="1">
+</th>
+<th style="border-bottom:hidden" colspan="1">
+</th>
+<th style="border-bottom:hidden; padding-bottom:0; padding-left:3px;padding-right:3px;text-align: center; " colspan="3">
+<div style="border-bottom: 1px solid #ddd; padding-bottom: 5px; ">
+Representatividad Nacional
+</div>
+</th>
+<th style="border-bottom:hidden" colspan="1">
+</th>
+</tr>
 <tr>
 <th style="text-align:center;">
 prov
@@ -398,6 +413,9 @@ pmc
 </th>
 <th style="text-align:center;">
 pmp
+</th>
+<th style="text-align:center;">
+pmt
 </th>
 <th style="text-align:center;">
 total
@@ -421,7 +439,10 @@ Guayas
 <td style="text-align:center;">
 0.64
 </td>
-<td style="text-align:center;width: 10em; font-weight: bold;color: white !important;background-color: gray !important;">
+<td style="text-align:center;">
+0.58
+</td>
+<td style="text-align:center;width: 8em; font-weight: bold;color: white !important;background-color: gray !important;">
 559
 </td>
 </tr>
@@ -441,7 +462,10 @@ Manabi
 <td style="text-align:center;font-weight: bold;color: black !important;">
 0.15
 </td>
-<td style="text-align:center;font-weight: bold;color: black !important;width: 10em; font-weight: bold;color: white !important;background-color: gray !important;">
+<td style="text-align:center;font-weight: bold;color: black !important;">
+0.13
+</td>
+<td style="text-align:center;font-weight: bold;color: black !important;width: 8em; font-weight: bold;color: white !important;background-color: gray !important;">
 122
 </td>
 </tr>
@@ -461,7 +485,10 @@ El Oro
 <td style="text-align:center;">
 0.03
 </td>
-<td style="text-align:center;width: 10em; font-weight: bold;color: white !important;background-color: gray !important;">
+<td style="text-align:center;">
+0.06
+</td>
+<td style="text-align:center;width: 8em; font-weight: bold;color: white !important;background-color: gray !important;">
 59
 </td>
 </tr>
@@ -481,7 +508,10 @@ Los Rios
 <td style="text-align:center;">
 0.06
 </td>
-<td style="text-align:center;width: 10em; font-weight: bold;color: white !important;background-color: gray !important;">
+<td style="text-align:center;">
+0.05
+</td>
+<td style="text-align:center;width: 8em; font-weight: bold;color: white !important;background-color: gray !important;">
 48
 </td>
 </tr>
@@ -501,7 +531,10 @@ Pichincha
 <td style="text-align:center;">
 0.01
 </td>
-<td style="text-align:center;width: 10em; font-weight: bold;color: white !important;background-color: gray !important;">
+<td style="text-align:center;">
+0.04
+</td>
+<td style="text-align:center;width: 8em; font-weight: bold;color: white !important;background-color: gray !important;">
 38
 </td>
 </tr>
@@ -521,7 +554,10 @@ Chimborazo
 <td style="text-align:center;">
 0.03
 </td>
-<td style="text-align:center;width: 10em; font-weight: bold;color: white !important;background-color: gray !important;">
+<td style="text-align:center;">
+0.04
+</td>
+<td style="text-align:center;width: 8em; font-weight: bold;color: white !important;background-color: gray !important;">
 34
 </td>
 </tr>
@@ -541,7 +577,10 @@ Santa Elena
 <td style="text-align:center;">
 0.02
 </td>
-<td style="text-align:center;width: 10em; font-weight: bold;color: white !important;background-color: gray !important;">
+<td style="text-align:center;">
+0.02
+</td>
+<td style="text-align:center;width: 8em; font-weight: bold;color: white !important;background-color: gray !important;">
 18
 </td>
 </tr>
@@ -561,7 +600,10 @@ Santo Domingo
 <td style="text-align:center;">
 0.01
 </td>
-<td style="text-align:center;width: 10em; font-weight: bold;color: white !important;background-color: gray !important;">
+<td style="text-align:center;">
+0.02
+</td>
+<td style="text-align:center;width: 8em; font-weight: bold;color: white !important;background-color: gray !important;">
 17
 </td>
 </tr>
@@ -581,7 +623,10 @@ Tungurahua
 <td style="text-align:center;">
 0.02
 </td>
-<td style="text-align:center;width: 10em; font-weight: bold;color: white !important;background-color: gray !important;">
+<td style="text-align:center;">
+0.02
+</td>
+<td style="text-align:center;width: 8em; font-weight: bold;color: white !important;background-color: gray !important;">
 16
 </td>
 </tr>
@@ -601,7 +646,10 @@ Cotopaxi
 <td style="text-align:center;">
 0.00
 </td>
-<td style="text-align:center;width: 10em; font-weight: bold;color: white !important;background-color: gray !important;">
+<td style="text-align:center;">
+0.01
+</td>
+<td style="text-align:center;width: 8em; font-weight: bold;color: white !important;background-color: gray !important;">
 11
 </td>
 </tr>
@@ -621,7 +669,10 @@ Esmeraldas
 <td style="text-align:center;">
 0.01
 </td>
-<td style="text-align:center;width: 10em; font-weight: bold;color: white !important;background-color: gray !important;">
+<td style="text-align:center;">
+0.01
+</td>
+<td style="text-align:center;width: 8em; font-weight: bold;color: white !important;background-color: gray !important;">
 11
 </td>
 </tr>
